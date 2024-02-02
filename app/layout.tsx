@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import { Navbar } from './components/nav';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nunocgoncalves.com'),
@@ -10,10 +12,10 @@ export const metadata: Metadata = {
     default: 'Nuno Gonçalves',
     template: '%s | Nuno Gonçalves',
   },
-  description: 'The Solutions Engineer, self-sovereignty freak.',
+  description: 'The Solutions Engineer, self-sovereignty advocate.',
   openGraph: {
     title: 'Nuno Gonçalves',
-    description: 'The Solutions Engineer, self-sovereignty freak.',
+    description: 'The Solutions Engineer, self-sovereignty advocate.',
     url: 'https://nunocgoncalves.com',
     siteName: 'Nuno Gonçalves',
     locale: 'en_US',
@@ -33,10 +35,6 @@ export const metadata: Metadata = {
   twitter: {
     title: 'Nuno Gonçalves',
     card: 'summary_large_image',
-  },
-  verification: {
-    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
-    yandex: '14d2e73487fa6c71',
   },
 };
 
@@ -60,8 +58,11 @@ export default function RootLayout({
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
+		  <Analytics />
+		  <SpeedInsights />
         </main>
       </body>
     </html>
   );
 }
+
