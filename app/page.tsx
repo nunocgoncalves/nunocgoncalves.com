@@ -22,7 +22,7 @@ export default function Page() {
     <section>
 		<h1 className="font-medium text-2xl mb-8 tracking-tighter">hi, I'm Nuno</h1>
 		<p className="prose prose-neutral dark:prose-invert">
-		  I like think of myself as an Architect. I am often at the nexus of technology and businness, strategically planning technical execution that drives business value.   
+		  I like to think of myself as an architect. I am often at the nexus of technology and businness, strategically planning technical execution that drives business value.   
 		</p>
 		<p className="prose prose-neutral dark:prose-invert">
 		  I am currently working as a Developer at {' '}
