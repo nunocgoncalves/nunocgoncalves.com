@@ -8,7 +8,7 @@ I have been delaying the launch of the most basic Next.js website for over a mon
 
 This was my plan:
 
-- Run a Next server and PostgresSQL DB, in a HA setting in a K8s cluster in one of my home servers
+- Run multiple replicas of a Next server and a PostgresSQL DB in a K8s cluster in one of my home servers
 - Do all routing using an HAProxy Ingress Controller and expose the Next server using my PfSense firewall
 - Manage certificates and secrets with [Vault's](https://vaultproject.io) PKI (Private Key Infrastructure)
 - And to wrap it all up, declare all the infracture in Terraform
@@ -17,19 +17,16 @@ To be fair, I do things like this on a daily basis at work ...
 
 But sometimes, the desire for engineering excellence becomes your worst enemy. Meet the perfectionist, responsible for a lot of inaction in life.
 
-Truth be said, the best projects are the ones that actually get shipped. Not the ones you spend months thinking about and that actually never get done. And even when they do, they are often so far off your initial expectations because you gave more thought to the idea than the work itself.
+The good news is that the fact you are reading this means I was able to overcome the perfectionist. 
 
-The fact that someone might be reading this just means I was able to take over the perfectionist. 
-
-What did I do? I just shipped.
+So, what did I do? I just shipped.
 
 I went over to [Vercel](https://vercel.com) and in 5mins this website was live.
 
-Would my initial solution have worked any better than the 5min deployment with Vercel. Honestly, it would've likely performed worse. Covering all the process of deploying the over-engineered solution would've made a great blog (and it'll probably still happened) but it would've made it more likely for me to never ship the website.
+Would my initial solution have worked any better than the 5min deployment with Vercel. Honestly, it would've likely performed worse. Covering all the process of deploying the over-engineered solution would've made a great blog (and it'll probably still happen!) but it also would've made it more likely for me to never ship this website.
 
-Once perfectionism kicks in, nothing will ever be good enough. The more you do, the more you find out is "wrong". The longer you think about awesome ways to solve the inexistent problems the longer you'll perpetuate a cycle or rewarding on the premesis of ideas instead of working on your main proposition.
+Once the perfectionist kicks in, nothing will ever be good enough. The more you "plan", the more you find out is "wrong". The longer you focus on solving inexistent problems the longer you'll perpetuate the cycle of of inaction. Simply put you get addicted to the feeling of fake progress and never actually take the action needed to move the needle.
 
-Ideas are good, acting is best.
+Plans are okay, action is best. And the best projects are the ones that actually get shipped.
 
-So, just ship!
-
+The question is... what are you going to ship?
