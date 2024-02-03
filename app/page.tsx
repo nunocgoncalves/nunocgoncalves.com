@@ -25,8 +25,8 @@ export default function Page() {
 		  I like think of myself as an Architect. I am often at the nexus of technology and businness, strategically planning technical execution that drives business value.   
 		</p>
 		<p className="prose prose-neutral dark:prose-invert">
-		  I am currently working as a Developer at, {' '}
-		  <Link href="https://coreflux.org/">Coreflux</Link>,
+		  I am currently working as a Developer at {' '}
+		  <Link href="https://coreflux.org/">Coreflux</Link>
 		  where I'm building the {' '}
 		  <Link href="https://mqtt.coreflux.org/">Coreflux Cloud Platform</Link>.
 		</p>
