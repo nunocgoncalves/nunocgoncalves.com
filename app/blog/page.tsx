@@ -6,7 +6,7 @@ import { getBlogPosts } from 'app/db/blog';
 
 export const metadata = {
   title: 'Blog',
-  description: 'Thoughts on software engineering, web3, self-hosting and self-sovereignity.',
+  description: 'Thoughts on software engineering, web3, identity and self-sovereignity.',
 };
 
 export default function BlogPage() {

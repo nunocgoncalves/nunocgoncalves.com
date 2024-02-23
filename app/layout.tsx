@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     default: 'Nuno Gonçalves',
     template: '%s | Nuno Gonçalves',
   },
-  description: 'The Solutions Engineer, self-sovereignty advocate.',
+  description: 'The Architect, identity and self-sovereignty maxi.',
   openGraph: {
     title: 'Nuno Gonçalves',
-    description: 'The Solutions Engineer, self-sovereignty advocate.',
+    description: 'The Architect Engineer, identity and self-sovereignty maxi.',
     url: 'https://nunocgoncalves.com',
     siteName: 'Nuno Gonçalves',
     locale: 'en_US',
